@@ -5020,7 +5020,7 @@ ol.citrusStylesSE-list.citrusStylesSE-list--inline:not(.citrusStylesSE-list--uns
     font-style: normal;
   }  
   
-/* Page common bg */
+/* Elsey Page common bg */
 .citrusStylesSE__BG--navy{
   background-color: var(--citrusStylesSE-primary-navy);
 }
@@ -5251,7 +5251,57 @@ ol.citrusStylesSE-list.citrusStylesSE-list--inline:not(.citrusStylesSE-list--uns
 }
 /* Product Banner Section e */
 
-/*====== Page styles ======*/
+/*========= responsive styles ===========*/
+@media (max-width: 921px) {
+  /* hero max-921 */
+.citrusStylesSE__Hero  .citrusStylesSE-grid{
+  flex-direction: column-reverse;
+  column-gap: 0;
+  max-width: 100%;
+  position: relative;
+}
+.citrusStylesSE__Hero .citrusStylesSE-grid__cell{
+  display: flex;
+  justify-content: center;
+}
+.citrusStylesSE__Hero_right--content-product{
+  position: relative;
+  max-width: 100%;
+  left: 0;
+  right: 0;
+  margin: auto;  
+}
+.citrusStylesSE__Hero_left--content {
+  margin-left: 0px;
+  margin: 40px auto;
+}
+/* hero max-921 e*/
+
+/* benefit max-921 */
+.citrusStylesSE__benefit .citrusStylesSE-grid{
+  width: 994px;
+  overflow: auto;
+}
+/* benefit max-921 e */
+
+/* Product max-921 */
+.citrusStylesSE__products {
+  width: 826px;
+  max-width: 100%;
+  overflow: auto;
+  margin: auto;
+}
+.citrusStylesSE__product .citrusStylesSE-grid{
+  width: 100%;
+  margin-left: 20px;
+  flex-direction: row;
+  gap: 10px;
+}
+/* Product max-921 e */
+
+}
+/*========= responsive styles e ===========*/
+/*=============== Page styles =================*/
 
 /* ===================== Custom CSS e ===================== */
 
