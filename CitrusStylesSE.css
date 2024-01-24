@@ -5032,7 +5032,16 @@ ol.citrusStylesSE-list.citrusStylesSE-list--inline:not(.citrusStylesSE-list--uns
     font-weight: normal;
     font-style: normal;
   }  
-
+  .citrusStylesSE-grid__cell--width-72{
+    flex: 72%;
+    max-width: 72%;
+    padding: 0px;
+  }
+  .citrusStylesSE-grid__cell--width-28{
+    flex: 28%;
+    max-width: 28%;
+    padding: 0px;
+  }
 .citrusStylesSE__content-heading{
   margin-top: 20px;
   margin-bottom: 30px;
@@ -5102,8 +5111,8 @@ ol.citrusStylesSE-list.citrusStylesSE-list--inline:not(.citrusStylesSE-list--uns
 .citrusStylesSE__Hero_left--content{
   margin-left: 10%;
 }
-.citrusStylesSE__Hero_left--content-logo{
-  margin: 30px 0;
+.citrusStylesSE__Hero_left--content-logo {
+  margin: 30px 0 35px 0;
   width: 216px;
   max-width: 100%;
 }
@@ -5145,17 +5154,15 @@ ol.citrusStylesSE-list.citrusStylesSE-list--inline:not(.citrusStylesSE-list--uns
   max-width: 100%;
   object-fit: contain;
 }
-.citrusStylesSE__benefit .citrusStylesSE-CTA button{
-  margin-top: 26px;
-  background-color: var(--citrusStylesSE-primary-navy);
-  color: var(--citrusStylesSE-color-10);
+.citrusStylesSE__benefit .citrusStylesSE-button{
+  margin-top: 20px;
 }
 /* Benefit Section e */
 
 /* Product Section */
-.citrusStylesSE__product .citrusStylesSE__content-heading{
-  margin-top: 50px;
-  margin-bottom: 65px;
+.citrusStylesSE__product .citrusStylesSE__content-heading {
+  margin-top: 48px;
+  margin-bottom: 58px;
 }
 .citrusStylesSE__product .citrusStylesSE-grid{
   max-width: 826px;
@@ -5179,12 +5186,16 @@ ol.citrusStylesSE-list.citrusStylesSE-list--inline:not(.citrusStylesSE-list--uns
   font-size: 13px;
   line-height: 18px;
   font-weight: 400;
+  margin: 10px 0 18px 0;
 }
 .citrusStylesSE__product a {
   font-family: 'PetcoCircular-Bold',arial!important;
   font-size: 16px;
   color: #001952;
   text-decoration: underline;
+}
+.citrusStylesSE__product .citrusStylesSE-button{
+  margin-top: 41px;
 }
 /* Product Section e */
 
@@ -5194,22 +5205,59 @@ ol.citrusStylesSE-list.citrusStylesSE-list--inline:not(.citrusStylesSE-list--uns
   margin: 70px auto;
   width: 100%;
 }
+.citrusStylesSE__videoBanner .citrusStylesSE__content-heading {
+  margin-top: 10px;
+  margin-bottom: 18px;
+}
+.citrusStylesSE__videoBanner .citrusStylesSE__content-subHeading{
+  line-height: 22px;
+}
+.citrusStylesSE__videoBanner .citrusStylesSE-grid{
+  width: 1100px;
+  max-width: 100%;  
+  column-gap: 20px;
+}
+.citrusStylesSE__videoBanner .citrusStylesSE-grid__cell{
+  padding: 0px;
+}
 .citrusStylesSE__videoBanner-content img{
   width: 247px;
   margin: auto;
 }
-.citrusStylesSE__videoBanner .citrusStylesSE-grid{
-  width: 1100px;
-  max-width: 100%;
+.citrusStylesSE__videoBanner iframe{
+  margin-top: -30px;
+  padding-bottom: 30px;
 }
+
 /* Vdieo Banner Section e */
 
 /* Product Banner Section */
+.citrusStylesSE__productBanner{
+  margin-bottom: 30px;
+}
+.citrusStylesSE__productBanner .citrusStylesSE-grid{
+  width: 1100px;
+  max-width: 100%;  
+  column-gap: 20px;
+}
+.citrusStylesSE__productBanner .citrusStylesSE-grid__cell{
+  padding: 0px;
+}
+.citrusStylesSE__productBanner .citrusStylesSE__content-heading{
+  margin-top: 15px;
+  margin-bottom: 15px;
+}
+.citrusStylesSE__productBanner .citrusStylesSE__content-subHeading{
+  line-height: 22px;
+}
 .citrusStylesSE__productBanner-product img{
   width: 448px;
   max-width: 100%;
   object-fit: contain;
   margin: auto;
+}
+.citrusStylesSE__productBanner .citrusStylesSE-button{
+  margin-top: 15px;
 }
 /* .citrusStylesSE__productBanner-content{
 
