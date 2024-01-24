@@ -5002,35 +5002,37 @@ ol.citrusStylesSE-list.citrusStylesSE-list--inline:not(.citrusStylesSE-list--uns
 
 
 
+
+/*====== common styles =======*/
+:root{
+  --citrusStylesSE-elsey-bg: #e9f7ff;
+}
 /* All the Fonts from Petco.com */
-/* common styles */
-@font-face {
+  @font-face {
   font-family: 'PetcoCircular-Bold';
   src: url('fonts/PetcoCircular-Bold.woff2') format('woff');
   font-weight: 900;
   font-style: normal;
-  }
-  
+  }    
   @font-face {
     font-family: 'PetcoCircular-Black';
     src: url('fonts/PetcoCircular-Black.otf') format('otf');
     font-weight: 700;
     font-style: normal;
-  }
-  
-  @font-face {
-    font-family: 'PetcoCircular-Regular';
-    src: url('fonts/PetcoCircular-Regular.woff2') format('woff');
-    font-weight: normal;
-    font-style: normal;
-  }
-  
+  }    
   @font-face {
     font-family: 'PetcoCircular-Medium';
     src: url('fonts/PetcoCircular-Medium.otf') format('otf');
     font-weight: 700;
     font-style: normal;
   }
+  @font-face {
+    font-family: 'PetcoCircular-Regular';
+    src: url('fonts/PetcoCircular-Regular.woff2') format('woff');
+    font-weight: normal;
+    font-style: normal;
+  }  
+
 .citrusStylesSE__content-heading{
   margin-top: 20px;
   margin-bottom: 30px;
@@ -5039,16 +5041,15 @@ ol.citrusStylesSE-list.citrusStylesSE-list--inline:not(.citrusStylesSE-list--uns
   font-size: 25px;
   font-weight: 700;
 }
-.citrusStylesSE__content-heading.citrusStylesSE__content-heading--dark{
+.citrusStylesSE__content-heading--dark{
   color: var(--citrusStylesSE-color--00);
 }
-.citrusStylesSE__content-heading.citrusStylesSE__content-heading--light{
+.citrusStylesSE__content-heading--light{
   color: var(--citrusStylesSE-color-10);
 }
 .citrusStylesSE__content-subHeading{
   font-family: 'PetcoCircular-Regular';
   font-size: var(--citrusStylesSE-text-font-size-medium);
-  color: var(--citrusStylesSE-color-10);
 }
 .citrusStylesSE-button.citrusStylesSE-button--common{
   font-family: 'PetcoCircular-Bold',arial!important;
@@ -5086,7 +5087,10 @@ ol.citrusStylesSE-list.citrusStylesSE-list--inline:not(.citrusStylesSE-list--uns
   align-items: flex-start;
   justify-content: center;
 }
-/* common styles */
+/*====== common styles ======*/
+
+
+
 
 /* Hero Section */
 .citrusStylesSE__Hero{
@@ -5111,7 +5115,7 @@ ol.citrusStylesSE-list.citrusStylesSE-list--inline:not(.citrusStylesSE-list--uns
   margin: 10px 0 0 0;
 }
 .citrusStylesSE__Hero_right{
-  background: #e9f7ff;
+  background: var(--citrusStylesSE-elsey-bg);
 }
 .citrusStylesSE__Hero_right--content-product{
   width: 442px;
@@ -5186,9 +5190,31 @@ ol.citrusStylesSE-list.citrusStylesSE-list--inline:not(.citrusStylesSE-list--uns
 
 /* Vdieo Banner Section */
 .citrusStylesSE__videoBanner{
+  background-color: var(--citrusStylesSE-elsey-bg);
+  margin: 70px auto;
   width: 100%;
 }
+.citrusStylesSE__videoBanner-content img{
+  width: 247px;
+  margin: auto;
+}
+.citrusStylesSE__videoBanner .citrusStylesSE-grid{
+  width: 1100px;
+  max-width: 100%;
+}
 /* Vdieo Banner Section e */
+
+/* Product Banner Section */
+.citrusStylesSE__productBanner-product img{
+  width: 448px;
+  max-width: 100%;
+  object-fit: contain;
+  margin: auto;
+}
+/* .citrusStylesSE__productBanner-content{
+
+} */
+/* Product Banner Section e */
 
 /* ===================== Custom CSS e ===================== */
 
