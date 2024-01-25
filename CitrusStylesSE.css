@@ -870,7 +870,7 @@ font-style: normal;
   text-decoration: inherit;
   text-overflow: ellipsis;
   user-select: none;
-  vertical-align: middle;
+  /* vertical-align: middle; */
   white-space: nowrap;
   width: 100%;
 }

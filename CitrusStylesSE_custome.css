@@ -1,5 +1,7 @@
 
-/*====== common styles =======*/
+  /* ===================== Custom CSS ===================== */
+  
+  /*====== common styles =======*/
 :root{
     --citrusStylesSE-elsey-light: #e9f7ff;
   }
@@ -42,19 +44,29 @@
     margin: 0px auto;
   }
   .citrusStylesSE-grid--center-top{
-    align-items: flex-start;
-    justify-content: center;
+    -webkit-box-align: start;
+        -ms-flex-align: start;
+            align-items: flex-start;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
   }
   
   /* New 3 cells */
   .citrusStylesSE-grid__cell--width-72{
-    flex: 72%;
+    -webkit-box-flex: 72%;
+        -ms-flex: 72%;
+            flex: 72%;
   }
   .citrusStylesSE-grid__cell--width-28{
-    flex: 28%;
+    -webkit-box-flex: 28%;
+        -ms-flex: 28%;
+            flex: 28%;
   }
   .citrusStylesSE-grid__cell--gap-20{
-    column-gap: 20px;
+    -webkit-column-gap: 20px;
+       -moz-column-gap: 20px;
+            column-gap: 20px;
   }
   
   /* text styles */
@@ -118,10 +130,18 @@
     color: var(--citrusStylesSE-primary-navy);
   }
   .citrusStylesSE-button.citrusStylesSE-button--common:hover{
-    filter: none!important;
+    -webkit-filter: none!important;
+            filter: none!important;
   }
   /*====== common styles ======*/
   
+
+
+
+
+
+
+
   
   /*====== Page styles ======*/
   /* Hero Section */
@@ -171,7 +191,8 @@
   .citrusStylesSE-card img {
     width: 177px;
     max-width: 100%;
-    object-fit: contain;
+    -o-object-fit: contain;
+       object-fit: contain;
   }
   .citrusStylesSE__benefit .citrusStylesSE-button{
     margin-top: 20px;
@@ -261,7 +282,8 @@
   .citrusStylesSE__productBanner-product img{
     width: 448px;
     max-width: 100%;
-    object-fit: contain;
+    -o-object-fit: contain;
+       object-fit: contain;
     margin: auto;
   }
   .citrusStylesSE__productBanner .citrusStylesSE-button{
@@ -270,12 +292,12 @@
   /* Product Banner Section e */
   
   /* Hide all scrollbar */
-  #citrusStylesSE__benefit-scroller::-webkit-scrollbar {
+  /* #citrusStylesSE__benefit-scroller::-webkit-scrollbar {
     display: none;
   }
   .citrusStylesSE__products::-webkit-scrollbar {
     display: none;
-  }
+  } */
   /* Hide all scrollbar */
   /*========= responsive styles ===========*/
   @media (max-width: 1250px) {
@@ -297,14 +319,23 @@
   @media (max-width: 921px) {
     /* hero max-921 */
   .citrusStylesSE__Hero  .citrusStylesSE-grid{
-    flex-direction: column-reverse;
-    column-gap: 0;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: reverse;
+        -ms-flex-direction: column-reverse;
+            flex-direction: column-reverse;
+    -webkit-column-gap: 0;
+       -moz-column-gap: 0;
+            column-gap: 0;
     max-width: 100%;
     position: relative;
   }
   .citrusStylesSE__Hero .citrusStylesSE-grid__cell{
+    display: -webkit-box;
+    display: -ms-flexbox;
     display: flex;
-    justify-content: center;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
   }
   .citrusStylesSE__Hero_right--content-product{
     position: relative;
@@ -320,7 +351,7 @@
   
   /* benefit max-921 */
   .citrusStylesSE__benefit .citrusStylesSE-container--large{
-  max-width: 100%;
+    max-width: 100%;
   }
   .citrusStylesSE__benefit .citrusStylesSE-grid{
     width: 890px;
@@ -347,7 +378,10 @@
   .citrusStylesSE__product .citrusStylesSE-grid{
     width: 826px;
     margin-left: 20px;
-    flex-direction: row;
+    -webkit-box-orient: horizontal;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: row;
+            flex-direction: row;
     gap: 10px;
   }
   /* Product max-921 e */
@@ -435,10 +469,15 @@
     margin: 30px auto;
   }
   .citrusStylesSE__videoBanner .citrusStylesSE-grid{
-    flex-direction: column;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
   }
   .citrusStylesSE__videoBanner .citrusStylesSE-grid__cell--gap-20{
-    column-gap: 0px;
+    -webkit-column-gap: 0px;
+       -moz-column-gap: 0px;
+            column-gap: 0px;
   }
   .citrusStylesSE__videoBanner .citrusStylesSE-grid__cell{
     width: 100%;
@@ -458,10 +497,15 @@
   
   /* Product Banner max-768 */
   .citrusStylesSE__productBanner .citrusStylesSE-grid{
-    flex-direction: column;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
   }
   .citrusStylesSE__productBanner .citrusStylesSE-grid__cell--gap-20{
-    column-gap: 0px;
+    -webkit-column-gap: 0px;
+       -moz-column-gap: 0px;
+            column-gap: 0px;
   }
   .citrusStylesSE__productBanner-product img {
     padding: 30px 0px;
@@ -475,10 +519,10 @@
   /* Product Banner max-768 e */
   
   }
-  
-  
-  
+    
   /*========= responsive styles e ===========*/
+
+
   /*=============== Page styles =================*/
   
   /* ===================== Custom CSS e ===================== */
