@@ -148,6 +148,7 @@
   }
   .citrusStylesSE__Hero .citrusStylesSE__text--subHead {
     margin: 10px 0 0 0;
+    max-width: 558px;
   }
   .citrusStylesSE__Hero_right--content-product{
     width: 442px;
