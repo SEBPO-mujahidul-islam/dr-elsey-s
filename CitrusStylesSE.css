@@ -5220,6 +5220,8 @@ ol.citrusStylesSE-list.citrusStylesSE-list--inline:not(.citrusStylesSE-list--uns
   margin: auto;
 }
 .citrusStylesSE__videoBanner iframe{
+  width: 100%;
+  border: none;
   margin-top: -30px;
   padding-bottom: 30px;
 }
