@@ -5251,6 +5251,14 @@ ol.citrusStylesSE-list.citrusStylesSE-list--inline:not(.citrusStylesSE-list--uns
 }
 /* Product Banner Section e */
 
+/* Hide all scrollbar */
+#citrusStylesSE__benefit-scroller::-webkit-scrollbar {
+  display: none;
+}
+.citrusStylesSE__products::-webkit-scrollbar {
+  display: none;
+}
+/* Hide all scrollbar */
 /*========= responsive styles ===========*/
 @media (max-width: 921px) {
   /* hero max-921 */
@@ -5278,21 +5286,33 @@ ol.citrusStylesSE-list.citrusStylesSE-list--inline:not(.citrusStylesSE-list--uns
 /* hero max-921 e*/
 
 /* benefit max-921 */
+.citrusStylesSE__benefit .citrusStylesSE-container--large{
+max-width: 100%;
+}
 .citrusStylesSE__benefit .citrusStylesSE-grid{
-  width: 994px;
+  width: 890px;
   overflow: auto;
 }
 /* benefit max-921 e */
 
+/* Video max-921 */
+.citrusStylesSE__videoBanner-content {
+  padding: 0 10px;
+}
+/* Video max-921 e */
+
 /* Product max-921 */
+.citrusStylesSE__productBanner-content {
+  padding: 0 10px;
+}
 .citrusStylesSE__products {
-  width: 826px;
+  /* width: 826px; */
   max-width: 100%;
   overflow: auto;
   margin: auto;
 }
 .citrusStylesSE__product .citrusStylesSE-grid{
-  width: 100%;
+  width: 826px;
   margin-left: 20px;
   flex-direction: row;
   gap: 10px;
@@ -5300,6 +5320,136 @@ ol.citrusStylesSE-list.citrusStylesSE-list--inline:not(.citrusStylesSE-list--uns
 /* Product max-921 e */
 
 }
+
+@media (max-width: 768px) {
+/* Common max-768  */
+.m-hide{
+  display: none;
+}
+.citrusStylesSE__text--heading{
+  font-size: 20px;
+}
+.citrusStylesSE-button.citrusStylesSE-button--common{
+  text-transform: capitalize;
+  text-decoration: underline;
+  background: none;
+  color: var(--citrusStylesSE-primary-navy);
+  margin-top: 5px;
+}
+/* Common max-768 e */
+
+/* Hero max-768  */
+.citrusStylesSE__Hero {
+  margin-bottom: 2.375em;
+}
+.citrusStylesSE__Hero_right--content-product {
+  position: relative;
+  width: 266px;
+  max-width: 100%;
+  height: 196px;
+  left: 0;
+  right: 0;
+  margin: auto;
+}
+.citrusStylesSE__Hero .citrusStylesSE-grid{
+  text-align: center;
+}
+.citrusStylesSE__Hero_left--content-logo {
+  width: 162px;
+  margin: 30px auto 30px;
+}
+.citrusStylesSE__Hero_left--content {
+  margin-left: 0px;
+  margin: 40px auto 26px auto;
+}
+.citrusStylesSE__Hero .citrusStylesSE__text--heading {
+  font-size: 25px;
+}
+.citrusStylesSE__Hero .citrusStylesSE__text--subHead {
+  padding: 0px 10px;
+}
+.citrusStylesSE__Hero .citrusStylesSE-button--common {
+  color: var(--citrusStylesSE-color-10);
+  margin-top: 20px;
+}
+/* Hero max-768 e */
+
+/* benefit max-768 */
+/* .citrusStylesSE__benefit .citrusStylesSE-grid {
+  width: 850px;
+} */
+.citrusStylesSE__benefit .citrusStylesSE-grid {
+  width: 590px;
+  margin: auto;
+}
+.citrusStylesSE__benefit .citrusStylesSE-grid__cell {
+  max-width: 130px;
+}
+.citrusStylesSE__benefit .citrusStylesSE-card img {
+  width: 115px;
+}
+.citrusStylesSE-card__title {
+  font-size: 15px;
+  line-height: 17px;
+}
+/* benefit max-768 e*/
+
+/* Product max-768 */
+.citrusStylesSE__product .citrusStylesSE-button{
+  margin-top: 20px;
+}
+/* Product max-768 e*/
+
+/* Video Banner max-768 e*/
+.citrusStylesSE__videoBanner {
+  margin: 30px auto;
+}
+.citrusStylesSE__videoBanner .citrusStylesSE-grid{
+  flex-direction: column;
+}
+.citrusStylesSE__videoBanner .citrusStylesSE-grid__cell--gap-20{
+  column-gap: 0px;
+}
+.citrusStylesSE__videoBanner .citrusStylesSE-grid__cell{
+  width: 100%;
+}
+.citrusStylesSE__videoBanner-content{
+  padding: 35px 10px 40px 10px;
+}
+.citrusStylesSE__videoBanner-content img {
+  width: 171px;
+  max-width: 100%;
+}
+.citrusStylesSE__videoBanner iframe {
+  padding-bottom: 0px;
+  margin-bottom: -3px;
+}
+/* Video Banner max-768 */
+
+/* Product Banner max-768 */
+.citrusStylesSE__productBanner .citrusStylesSE-grid{
+  flex-direction: column;
+}
+.citrusStylesSE__productBanner .citrusStylesSE-grid__cell--gap-20{
+  column-gap: 0px;
+}
+.citrusStylesSE__productBanner-product img {
+  padding: 30px 0px;
+}
+.citrusStylesSE__productBanner .citrusStylesSE-button{
+  margin-top: 15px;
+}
+.citrusStylesSE__productBanner-content{
+  padding: 20px 10px 40px 10px;
+}
+/* Product Banner max-768 e */
+
+}
+
+/* Need remove height & width from button */
+
+
+
 /*========= responsive styles e ===========*/
 /*=============== Page styles =================*/
 
