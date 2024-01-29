@@ -211,6 +211,7 @@
   .citrusStylesSE__product .citrusStylesSE-grid{
     max-width: 826px;
     overflow: auto;
+    gap: 10px;
   }
   .citrusStylesSE__product .citrusStylesSE-card{
     width: 198px;
@@ -383,17 +384,20 @@
   }
   .citrusStylesSE__product .citrusStylesSE-grid{
     width: 826px;
-    margin-left: 20px;
     -webkit-box-orient: horizontal;
     -webkit-box-direction: normal;
         -ms-flex-direction: row;
             flex-direction: row;
-    gap: 10px;
   }
   /* Product max-921 e */
   
   }
   
+@media (max-width: 830px) {
+  .citrusStylesSE__products{
+    padding-left: 20px;
+  }
+}
   @media (max-width: 768px) {
   /* Common max-768  */
   .m-hide{
