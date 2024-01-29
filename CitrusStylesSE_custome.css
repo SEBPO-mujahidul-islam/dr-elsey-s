@@ -112,7 +112,7 @@
   .citrusStylesSE-button.citrusStylesSE-button--common{
     font-family: 'PetcoCircular-Bold',arial!important;
     margin-top: 30px;
-    padding: 19px 56px 15px 56px;
+    padding: 20px 60.74px 16px 60.73px;
     /* width: 211px;
     height: 56px;  */
     text-transform: uppercase;
@@ -176,6 +176,9 @@
     top: 43px;
     left: -201px;
   }
+  .citrusStylesSE__Hero .citrusStylesSE-button{
+    padding: 20px 60.74px 16px 60.73px;
+  }
   /* Hero Section e */
   
   /* Benefit Section */
@@ -196,6 +199,7 @@
   }
   .citrusStylesSE__benefit .citrusStylesSE-button{
     margin-top: 20px;
+    padding: 20px 56.72px 16px 56.71px;
   }
   /* Benefit Section e */
   
@@ -233,6 +237,7 @@
   }
   .citrusStylesSE__product .citrusStylesSE-button{
     margin-top: 41px;
+    padding: 20px 22.04px 16px 21.73px;
   }
   /* Product Section e */
   
@@ -288,6 +293,7 @@
   }
   .citrusStylesSE__productBanner .citrusStylesSE-button{
     margin-top: 15px;
+    padding: 20px 25.09px 16px 24.73px;
   }
   /* Product Banner Section e */
   
@@ -521,7 +527,6 @@
   }
     
   /*========= responsive styles e ===========*/
-
 
   /*=============== Page styles =================*/
   
