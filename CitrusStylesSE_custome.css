@@ -121,7 +121,7 @@
     border-radius: 5px;
     cursor: pointer;
   }
-  .citrusStylesSE-button.citrusStylesSE-button--navy{
+  .citrusStylesSE-button.citrusStylesSE-button-navy{
     background-color: var(--citrusStylesSE-primary-navy);
     color: var(--citrusStylesSE-color--10);
   }
