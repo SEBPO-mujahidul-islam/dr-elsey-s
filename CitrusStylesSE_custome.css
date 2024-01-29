@@ -109,7 +109,7 @@
   }
   
   /* button styles */
-  .citrusStylesSE-button.citrusStylesSE-button--common{
+  .citrusStylesSE-button.citrusStylesSE-button-common{
     font-family: 'PetcoCircular-Bold',arial!important;
     margin-top: 30px;
     padding: 20px 60.74px 16px 60.73px;
@@ -129,7 +129,7 @@
     background-color: var(--citrusStylesSE-color--10);
     color: var(--citrusStylesSE-primary-navy);
   }
-  .citrusStylesSE-button.citrusStylesSE-button--common:hover{
+  .citrusStylesSE-button.citrusStylesSE-button-common:hover{
     -webkit-filter: none!important;
             filter: none!important;
   }
@@ -402,7 +402,7 @@
   .citrusStylesSE__text--heading{
     font-size: 20px;
   }
-  .citrusStylesSE-button.citrusStylesSE-button--common{
+  .citrusStylesSE-button.citrusStylesSE-button-common{
     text-transform: capitalize;
     text-decoration: underline;
     background: none;
@@ -441,7 +441,7 @@
   .citrusStylesSE__Hero .citrusStylesSE__text--subHead {
     padding: 0px 10px;
   }
-  .citrusStylesSE__Hero .citrusStylesSE-button--common {
+  .citrusStylesSE__Hero .citrusStylesSE-button-common {
     color: var(--citrusStylesSE-color-10);
     margin-top: 20px;
   }
